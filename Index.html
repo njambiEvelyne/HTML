@@ -1,41 +1,182 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="index.css">
   <link rel="icon" href="Abstract/KisiiIni logo.jpeg">
-  <title>Document</title>
+  <title>KisiiIni Portal</title>
 </head>
 <body>
-  <div class="container">
-    <div id="sitelogo">
-      <img src="Abstract/KisiiIni logo.jpeg" alt="Kisii University Logo">
+  <header class="topbar">
+    <div class="brand">
+      <img src="Abstract/KisiiIni logo.jpeg" alt="KisiiIni Logo">
+      <span>KisiiIni</span>
     </div>
-    
-    <form>
-      <div class="form-group">
-        <label for="firstname">First Name:</label>
-        <input type="text" id="firstname" name="firstname" required>
+    <nav class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#auth-card">Login</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">Student portal</span>
+        <h1>Secure login for Kisii University students</h1>
+        <p>Access your student dashboard, announcements, class schedules, and registration tools with one secure portal.</p>
+        <div class="hero-actions">
+          <a href="#auth-card" class="btn primary">Get Started</a>
+          <a href="#features" class="btn secondary">Explore features</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <strong>99.9%</strong>
+            <span>Uptime</span>
+          </div>
+          <div>
+            <strong>Fast</strong>
+            <span>Access</span>
+          </div>
+          <div>
+            <strong>Secure</strong>
+            <span>Login</span>
+          </div>
+        </div>
       </div>
-      
-      <div class="form-group">
-        <label for="lastname">Last Name:</label>
-        <input type="text" id="lastname" name="lastname" required>
+
+      <aside class="auth-card" id="auth-card">
+        <div class="auth-tabs">
+          <button class="tab active" data-target="signin">Sign in</button>
+          <button class="tab" data-target="signup">Register</button>
+        </div>
+
+        <div class="form-panel active" id="signin">
+          <h2>Welcome back</h2>
+          <p>Sign in with your student credentials to continue.</p>
+          <form id="login-form">
+            <div class="form-group">
+              <label for="login-email">Email</label>
+              <input type="email" id="login-email" name="login-email" placeholder="you@kisiiuni.ac.ke" required>
+            </div>
+            <div class="form-group">
+              <label for="login-password">Password</label>
+              <input type="password" id="login-password" name="login-password" placeholder="Enter your password" required>
+            </div>
+            <div class="form-row">
+              <label class="checkbox-label">
+                <input type="checkbox" name="remember">
+                Remember me
+              </label>
+              <a href="#" class="link">Forgot password?</a>
+            </div>
+            <button type="submit" class="submit-btn">Sign in</button>
+          </form>
+          <div class="social-login">
+            <p>Or sign in with</p>
+            <div class="social-buttons">
+              <button class="social-btn google">Google</button>
+              <button class="social-btn microsoft">Microsoft</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-panel" id="signup">
+          <h2>Create account</h2>
+          <p>Register using your academic details and join the portal.</p>
+          <form id="register-form">
+            <div class="form-group">
+              <label for="firstname">First Name</label>
+              <input type="text" id="firstname" name="firstname" required>
+            </div>
+            <div class="form-group">
+              <label for="lastname">Last Name</label>
+              <input type="text" id="lastname" name="lastname" required>
+            </div>
+            <div class="form-group">
+              <label for="regno">Reg No</label>
+              <input type="text" id="regno" name="regno" placeholder="e.g. KSU/12345/2024" required>
+            </div>
+            <div class="form-group">
+              <label for="signup-email">Email</label>
+              <input type="email" id="signup-email" name="signup-email" required>
+            </div>
+            <div class="form-group">
+              <label for="signup-password">Password</label>
+              <input type="password" id="signup-password" name="signup-password" required>
+            </div>
+            <div class="form-group">
+              <label for="confirm-password">Confirm Password</label>
+              <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <button type="submit" class="submit-btn">Register</button>
+          </form>
+          <p class="note">Already have an account? <a href="#signin" id="back-to-signin">Sign in</a></p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="features" id="features">
+      <div class="section-header">
+        <span class="eyebrow">Why KisiiIni</span>
+        <h2>Everything a student needs in one place</h2>
       </div>
-      
-      <div class="form-group">
-        <label for="regno">Reg No:</label>
-        <input type="text" id="regno" name="regno" required>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <h3>Fast access</h3>
+          <p>Login quickly and view your class roster, timetable, and announcements instantly.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Secure data</h3>
+          <p>Your profile and academic information are protected with secure authentication.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Smart support</h3>
+          <p>Get help with registration, grades, and campus updates from the support center.</p>
+        </article>
       </div>
-      
-      <div class="form-group">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
+    </section>
+
+    <section class="cta-banner">
+      <div>
+        <h2>Ready to start?</h2>
+        <p>Join the Kisii University portal today and keep your academic journey organized.</p>
       </div>
-      
-      <button type="submit" class="submit-btn">Submit</button>
-    </form>
-  </div>
+      <a href="#auth-card" class="btn primary">Start now</a>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <p>Contact support: <a href="mailto:support@kisiiuni.ac.ke">support@kisiiuni.ac.ke</a></p>
+    <p>© 2026 KisiiIni Portal</p>
+  </footer>
+
+  <script>
+    const tabs = document.querySelectorAll('.auth-tabs .tab');
+    const panels = document.querySelectorAll('.form-panel');
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        const target = tab.dataset.target;
+        tabs.forEach(item => item.classList.toggle('active', item === tab));
+        panels.forEach(panel => panel.id === target ? panel.classList.add('active') : panel.classList.remove('active'));
+      });
+    });
+
+    document.getElementById('back-to-signin').addEventListener('click', (event) => {
+      event.preventDefault();
+      document.querySelector('.auth-tabs .tab[data-target="signin"]').click();
+    });
+
+    document.getElementById('login-form').addEventListener('submit', (event) => {
+      event.preventDefault();
+      alert('Login submitted.');
+    });
+
+    document.getElementById('register-form').addEventListener('submit', (event) => {
+      event.preventDefault();
+      alert('Registration submitted.');
+    });
+  </script>
 </body>
 </html>
