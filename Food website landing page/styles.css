@@ -1,12 +1,12 @@
 :root{
-  --bg:#f3fbf7;
+  --bg:#eaf3ff;
   --card:#ffffff;
-  --accent:#2b8a6b;
-  --accent-2:#0f766e;
-  --muted:#5b616d;
+  --accent:#2b6ef6;
+  --accent-2:#174fc1;
+  --muted:#475569;
   --max-width:1100px;
   --radius:14px;
-  --glass: rgba(255,255,255,0.7);
+  --glass: rgba(255,255,255,0.78);
 }
 *{box-sizing:border-box}
 .html,body{height:100%;margin:0;font-family:Poppins,Inter,Segoe UI,Helvetica,Arial,sans-serif;color:#081226;-webkit-font-smoothing:antialiased}
