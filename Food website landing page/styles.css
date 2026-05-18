@@ -9,7 +9,19 @@
   --glass: rgba(255,255,255,0.7);
 }
 *{box-sizing:border-box}
-html,body{height:100%;margin:0;font-family:Poppins,Inter,Segoe UI,Helvetica,Arial,sans-serif;background:linear-gradient(180deg,#f7fdfa 0%,var(--bg) 100%);color:#081226;-webkit-font-smoothing:antialiased}
+.html,body{height:100%;margin:0;font-family:Poppins,Inter,Segoe UI,Helvetica,Arial,sans-serif;color:#081226;-webkit-font-smoothing:antialiased}
+
+/* full-page soft food-themed background with light overlay for readability */
+body{
+  background-image: linear-gradient(rgba(243,251,247,0.86), rgba(243,251,247,0.92)), url('https://images.unsplash.com/photo-1543352634-6f7fb6f0b3d5?auto=format&fit=crop&w=1600&q=60');
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* soften page content areas so text is readable over the photo */
+.container{max-width:var(--max-width);margin:0 auto;padding:1rem;}
 .container{max-width:var(--max-width);margin:0 auto;padding:1rem}
 .site-header{background:transparent;padding-top:0.5rem}
 .header-inner{display:flex;align-items:center;justify-content:space-between;padding:0.75rem 0}
