@@ -4,3 +4,11 @@ body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: medium;
 }
+#liquids{
+  color: burlywood;
+  border: solid, black;
+
+}
+#liquids dl{
+  margin: 2%;
+}
