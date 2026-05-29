@@ -4,6 +4,13 @@ body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: medium;
 }
+.cards{
+  background-color: aqua;
+}
+.cards dd,dt{
+  background-color: blueviolet;
+}
+
 #liquids{
   color: burlywood;
   border: solid, black;
@@ -16,5 +23,7 @@ body{
   color: blueviolet;
   border-radius: 2%;
   border: solid, green;
-  
+  background-color: aqua;
+  color: black;
+  font-size: larger;
 }
