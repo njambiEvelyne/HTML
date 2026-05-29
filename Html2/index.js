@@ -1,1 +1,1 @@
-document.getElementById("btn")
+document.getElementById("btn").innerHTML="Hello, How are you?";

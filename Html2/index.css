@@ -2,11 +2,9 @@ body{
   background-color: blueviolet;
   color: black;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: medium;
+  font-size: larger;
 }
-.cards{
-  background-color: aqua;
-}
+
 .cards dd,dt{
   background-color: blueviolet;
 }
@@ -26,4 +24,11 @@ body{
   background-color: aqua;
   color: black;
   font-size: larger;
+}
+#tables{
+  border: solid, black;
+  margin: auto;
+  text-align: center;
+  color: black;
+  background-color: gray;
 }
