@@ -12,3 +12,9 @@ body{
 #liquids dl{
   margin: 2%;
 }
+#btn{
+  color: blueviolet;
+  border-radius: 2%;
+  border: solid, green;
+  
+}
