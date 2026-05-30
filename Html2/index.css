@@ -25,7 +25,7 @@ body{
   font-size: larger;
 }
 #tables{
-  border: solid, black;
+  border: solid, rgb(204, 24, 24);
   margin: auto;
   text-align: center;
   color: black;
