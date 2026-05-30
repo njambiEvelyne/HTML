@@ -13,7 +13,12 @@
  <main>
   <header>
     <nav>
-      <a href="/Assests/KisiiIni logo.jpeg">Logo</a>
+      <ul style="float: right;">
+          <li><a href="/Assests/KisiiIni logo.jpeg">Software Engineering</a></li> 
+          <li><a href="/Assests/KisiiIni logo.jpeg">Computer Science</a> </li>    
+          <li><a href="/Assests/KisiiIni logo.jpeg">Computer Science</a> </li>    
+          <li><a href="/Assests/KisiiIni logo.jpeg">Computer Science</a> </li>     
+      </ul>
     </nav>
   </header>
   <div class="cards">
@@ -53,12 +58,11 @@
   <div id="tables">
     <table>
       <caption>Students Table</caption>
-      <th>Students List</th>
       <tr>
-        <td>Name</td>
-        <td>Reg No.</td>
-        <td>Corse</td>
-        <td>Aggregate Grade</td>
+        <th>Name</td>
+        <th>Reg No.</td>
+        <th>Corse</td>
+        <th>Aggregate Grade</td>
       </tr>
       <tbody>
         <tr>
@@ -80,17 +84,18 @@
           <td>81</td>
         </tr>
       </tbody>
+      
     </table>
   </div>
   <section>
     <div id="forms">
       <form action="/Html2/index.php" method="get">
         <label for="Name">First Name:</label>
-        <input type="text" name="Name" id="Name" placeholder="First Name" required> <br>
+        <input type="text" name="Name" id="Name" placeholder="First Name" required autocomplete="on"> <br>
         <label for="Lname">Last Name:</label>
-        <input type="text" name="Lname" id="Lname" placeholder="Last Name"required> <br>
+        <input type="text" name="Lname" id="Lname" placeholder="Last Name"required autocomplete="on"> <br>
         <label for="password">Password</label>
-        <input type="password" name="password" id="password" placeholder="Password" required=> <br>
+        <input type="password" name="password" id="password" placeholder="Password" autocomplete="on"> <br>
         <input type="button">
         
       </form>
@@ -107,6 +112,7 @@
   <h3>Music</h3>
   <audio src="/Audio files/ava_max_my_way_lyrics_h264_52388.mp4" controls autoplay muted ></audio> <br>
   <a href="/Audio files/ava_max_my_way_lyrics_h264_52388.mp4" target="_blank" style="color: chartreuse;">Play Music</a> <br>
+  <video src="/Audio files/ava_max_my_way_lyrics_h264_52388.mp4" controls autoplay muted></video>
   <blockquote>Hello. How are you. This is a quoted block</blockquote><br>
   <p>Hello. This is a paragraph</p> <br>
   <input list="fruit">
@@ -122,7 +128,15 @@
   <option value="Banana">Banana</option>
   <option value="Apple">Apple</option>
 </optgroup>
-
+<q cite="https://web.whatsapp.com/">whatsapp</q> <br>
+<select name="List" id="list">
+  <option value="Orange">Orange</option>
+  <option value="Banana">Banana</option>
+  <option value="Apple">Apple</option>
+</select> <br>
+<h1>Add text in the text area below</h1>
+<textarea name="text" id="Text" cols="6"> </textarea>
+<area shape="rect" coords="30, 45, 30, 45" href="/Assests/KisiiIni logo.jpeg" alt="Coordinates">
 
  </main> 
 </body>
