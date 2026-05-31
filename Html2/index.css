@@ -2,6 +2,7 @@ body{
   background-color: blueviolet;
   color: black;
   font-size: larger;
+  border-image: repeat;
 }
 
 .cards dd,dt{
