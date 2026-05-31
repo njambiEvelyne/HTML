@@ -3,6 +3,7 @@ body{
   color: black;
   font-size: larger;
   border-image: repeat;
+  direction: ltr;
 }
 
 .cards dd,dt{
