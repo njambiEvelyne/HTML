@@ -1,8 +1,21 @@
-body{
-  background-color: rgb(168, 144, 144);
-  color: black ;
+/* body{
+  background-color: rgb(252, 245, 245);
+  color: rgb(12, 1, 1) ;
+  margin: 0%;
+
 }
-#logo{
-  height: 30px;
-  width: 30px;
+header{
+  background-color: rgb(7, 9, 143);
 }
+header a{
+  color: aliceblue;
+}
+a:hover{
+  color: burlywood;
+}
+a:visited{
+  color: aqua;
+}
+a:active{
+  color: brown;
+} */
