@@ -27,12 +27,17 @@ body{
   font-size: larger;
 }
 #tables{
-  border: solid, rgb(204, 24, 24);
+  border: solid, rgb(204, 24, 24) 2px;
   margin: auto;
   text-align: center;
   color: black;
   background-color: gray;
+  border-collapse: separate;
 
+}
+#tables tr td th caption{
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 h3{
   text-decoration: underline;
@@ -45,5 +50,5 @@ h1{
 .container{
   box-sizing: border-box;
   background-color: black;
-  
+
 }
