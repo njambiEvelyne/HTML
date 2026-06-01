@@ -1,3 +1,7 @@
+body{
+  background-color: hsl(0, 4%, 17%);
+  color: aliceblue;
+}
 table, tr, td, th, caption{
   border: 2px solid #4921d8;
   font-family: 'Courier New', Courier, monospace;

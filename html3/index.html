@@ -79,7 +79,10 @@
     <article id="contact">
       <h2>Contact me</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam explicabo, magni modi necessitatibus aperiam aliquam, id optio saepe mollitia ex cumque facere cum consequuntur beatae omnis veritatis unde. Ratione, reprehenderit!</p>
-      <form action="htttps://httpbin.org/get" method="get">
+
+      <form action="https://httpbin.org/get" method="get">
+      <fieldset>
+          <legend>Personal Info</legend>
         <p>
           <label for="firstName">First Name:</label>
           <input type="text" name="firstName" id="firstName" placeholder="Jane" autocomplete="on" autofocus required> <br>
@@ -106,16 +109,84 @@
 
         <p>
           <label for="coffee">Favourite coffee: </label>
-          <select name="coffee" id="coffee">
-            <option value="regular coffee">Regular Coffee</option>
-            <option value="iced coffee">Iced coffee</option>
-            <option value="latte">Latte</option>
-            <option value="cappuccino">Cappucciono</option>
-            <option value="cortado">Cortado</option>
-            <option value="americano" selected>Americano</option>
-            <option value="Other">Other</option>
+          <select name="coffee" id="coffee" multiple size="3">
+            <optgroup label="Coffees">
+              <option value="regular coffee">Regular Coffee</option>
+              <option value="iced coffee">Iced coffee</option>
+            </optgroup>
+            <optgroup label="Espresso Drinks">
+              <option value="latte">Latte</option>
+              <option value="cappuccino">Cappucciono</option>
+              <option value="cortado">Cortado</option>
+              <option value="americano" selected>Americano</option>
+              <option value="Other">Other</option>
+            </optgroup>
           </select>
         </p>
+
+        <!-- <label for="Cofee">Favourite Coffee: </label>
+        <input type="text" name="coffee" id="coffee" list="coffee-list">
+        <datalist id="coffee-list">
+              <option value="regular coffee">
+              <option value="iced coffee">
+              <option value="latte">
+              <option value="cappuccino">
+              <option value="cortado">
+              <option value="americano" selected>
+              <option value="Other">
+
+        </datalist> -->
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>What is your favourite food</legend>
+        <p>
+          <input type="radio" name="food" id="tacos" value="tacos">
+          <label for="tacos">Tacos</label>
+        </p>
+
+        <p>
+          <input type="radio" name="food" id="pizza" value="pizza">
+          <label for="pizza">Pizza</label>
+        </p>
+        
+        <p>
+          <input type="radio" name="food" id="other" value="other">
+          <label for="other">Others</label>
+        </p>
+        
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Do you have pets?</legend>
+        <p>
+          <input type="checkbox" name="pets" id="dog" value="dog">
+          <label for="dog">Dog</label>
+        </p>
+
+        <p>
+          <input type="checkbox" name="pets" id="cat" value="cat">
+          <label for="dog">Cat</label>
+        </p>
+
+        <p>
+          <input type="checkbox" name="pets" id="rabbit" value="rabbit">
+          <label for="rabbit">Rabbit</label>
+        </p>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Send me a note</legend>
+        <label for="message">Your Message</label>
+        <br>
+        <textarea name="massage" id="message" cols="30" rows="10" placeholder="Type your message here"> </textarea>
+
+      </fieldset>
+      <br>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+      <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+
 
       </form>
     </article>
