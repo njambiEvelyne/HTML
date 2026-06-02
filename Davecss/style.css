@@ -1,0 +1,10 @@
+body{
+  font-size: 22px;
+  background-color: papayawhip;
+  color: black;
+}
+h1{
+  border: 2px dashed red;
+  width: 400px;
+  padding: 1.5rem;  
+}
