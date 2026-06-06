@@ -3,6 +3,10 @@ body{
   background-color: papayawhip;
   color: black;
   border: double green;
+  margin: auto;
+}
+main{
+  margin: 10px;
 }
 h1{
   border: 2px dashed red;
@@ -10,6 +14,22 @@ h1{
   padding: 1.5rem;  
 }
 #container1{
+  border: 2px dashed red;
+  padding: 1.5em;
+  font-size: 1.5em;
+  outline: purple 10px;
+  border: 10px double red;
+
+}
+#container2{
+  border: 2px dashed red;
+  padding: 1.5em;
+  font-size: 1.5em;
+  outline: purple 10px;
+  border: 10px double red;
+
+}
+#container3{
   border: 2px dashed red;
   padding: 1.5em;
   font-size: 1.5em;
