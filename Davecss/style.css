@@ -53,7 +53,5 @@ h1{
   
 }
 p{
-  text-decoration: underline;
-  text-transform: capitalize;
-  text-align: justify;
+  line-height: 1.5;
 }
