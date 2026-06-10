@@ -57,3 +57,17 @@ p{
   letter-spacing:  0.1em; 
   font-weight: bolder;
 }
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: blue;
+}
+a:visited{
+  color: purple;
+}
+a:hover{
+  color: dodgerblue;
+}
+a:active{
+  color: red;
+}
