@@ -60,13 +60,13 @@ p{
 a{
   text-decoration: none;
   cursor: pointer;
-  color: blue;
+  color: hsl(240, 100%, 50%);
 }
 a:visited{
   color: purple;
 }
 a:hover, a:focus{
-  color: dodgerblue;
+  color: hsl(240, 100%, 50%);;
 }
 a:active{
   color: red;
