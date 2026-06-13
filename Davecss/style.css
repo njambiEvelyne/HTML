@@ -72,4 +72,8 @@ a:hover, a:focus{
 }
 a:active{
   color: red;
+
+}
+.columns{
+  column-count: 4;
 }
