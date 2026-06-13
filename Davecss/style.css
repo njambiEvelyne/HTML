@@ -91,4 +91,11 @@ a:active{
   padding: 1rem;
   break-inside: avoid;
   
+  
+}
+.quote{
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+  column-span: all;
 }
