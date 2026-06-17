@@ -22,6 +22,9 @@ if(is_female or is_tall):
 elif(is_female and not is_tall):
   print("You are a short female")
 
+elif not(is_female) and is_tall:
+  print("You aer not a female but are tall")
+
 else:
   print("You are neither female nor tall")
 
