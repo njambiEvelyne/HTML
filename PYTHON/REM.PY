@@ -19,8 +19,14 @@ is_tall = True
 if(is_female or is_tall):
   print("You are a lady or tall or both")
 
+elif(is_female and not is_tall):
+  print("You are a short female")
+
 else:
   print("You are neither female nor tall")
+
+
+ 
 
 
 
