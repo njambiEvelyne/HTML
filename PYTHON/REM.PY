@@ -13,5 +13,14 @@ def cube_number():
   
 cube_number()
 
+#if Statements
+is_female = True
+is_tall = True
+if(is_female or is_tall):
+  print("You are a lady or tall or both")
+
+else:
+  print("You are neither female nor tall")
+
 
 
