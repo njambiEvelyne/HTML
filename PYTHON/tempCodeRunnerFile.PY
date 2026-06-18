@@ -1,1 +1,1 @@
-True
+print(instructions)
