@@ -24,9 +24,11 @@ def subtract():
   if(num2 > num1):
     print("The result is negative")
     result = num1 - num2
+    print(result)
   else:
     print("The result is positive")
     result = num1-num2
+    print(result)
 
 def multiply():
   print("This is multiplication")
@@ -51,6 +53,7 @@ def modulus():
   num2 = int(input("Enter the second number: "))
   result = num1 %num2
   print(result)
+
 
 if(choice ==1):
   add()
