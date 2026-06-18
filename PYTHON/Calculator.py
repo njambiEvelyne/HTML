@@ -51,3 +51,14 @@ def modulus():
   num2 = int(input("Enter the second number: "))
   result = num1 %num2
   print(result)
+
+if(choice ==1):
+  add()
+elif (choice==2):
+  subtract()
+elif (choice == 3):
+  multiply()
+elif (choice == 4):
+  divide()
+else:
+  modulus()
