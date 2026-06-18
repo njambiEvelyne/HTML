@@ -28,6 +28,20 @@ elif not(is_female) and is_tall:
 else:
   print("You are neither female nor tall")
 
+#If satatements and comparison statements
+def max_num(num3, num4, num5):
+  if num3 >= num4 and num3 >=num5:
+    return num3
+  
+  elif num4>= num3 and num4 >= num5:
+    return num3
+  
+  else:
+    return num5
+  
+print(max_num(3,5,6))
+   
+
 
  
 
