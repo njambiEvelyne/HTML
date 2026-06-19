@@ -66,5 +66,8 @@ while (i<=9):
 
 print("Done with loop")
 
+#For loop
+for letter in "Evelyne's Academy":
+  print(letter)
 
 
