@@ -75,4 +75,7 @@ for num in range((len(friends))
 )  :
   print(num)
 
+for index in range(10):
+  print(index)
+
 
