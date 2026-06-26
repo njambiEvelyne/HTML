@@ -92,6 +92,14 @@ def raise_to_power(base_number, pow_num):
 
 print(raise_to_power(2,4))
 
+number_grid = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9],
+  [0]
+]
+print(number_grid[2] [1])  
+
 
   
 
