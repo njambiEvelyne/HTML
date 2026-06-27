@@ -7,3 +7,4 @@ except ZeroDivisionError as err:
 except ValueError as e:
     print(e)
 
+#Reading from external files
