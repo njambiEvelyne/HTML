@@ -8,3 +8,4 @@ except ValueError as e:
     print(e)
 
 #Reading from external files
+open("employees.txt", "r")
