@@ -1,2 +1,3 @@
-number = int(input("Enter a number: "))
-print(number)
+while True:
+  number = int(input("Enter a number: "))
+  print(number)
