@@ -9,5 +9,5 @@ class student:
     self.major = major
     self.gpa= gpa
     self.is_on_probation = is_on_probation
-    
-    
+
+print(student1 = student("Evelyne", "SOEN", 12.90, False))    
