@@ -10,4 +10,5 @@ class student:
     self.gpa= gpa
     self.is_on_probation = is_on_probation
 
-print(student1 = student("Evelyne", "SOEN", 12.90, False))    
+student1 = student("Evelyne", "SOEN", 12.90, False)
+print(student1.gpa)
