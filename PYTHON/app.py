@@ -38,6 +38,8 @@ def run_test(questions):
       score +=1
   print("You got " + str(score) + "/" + str(len(questions)) +"correct")
 
+run_test(questions)
+
 
 
 
