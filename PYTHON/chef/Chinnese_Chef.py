@@ -1,13 +1,6 @@
-class Chinnese_chef:
-  def make_chicken(self):
-    print("The chef makes a chicken")
+from chef import Chef
 
-  def make_salad(self):
-    print("The chef makes a salad")
-
-  def make_special_dish(self):
-    print("The chef makes orange chicken")
-
+class Chinnese_chef(Chef):
   def make_fried_rice(self):
     print("The chef makes fried rice")
 

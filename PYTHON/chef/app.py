@@ -6,3 +6,4 @@ mychef.make_chicken()
 
 my_Chinnese_chef = Chinnese_chef()
 my_Chinnese_chef.make_fried_rice()
+my_Chinnese_chef.make_fried_rice()
