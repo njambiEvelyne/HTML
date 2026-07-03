@@ -36,6 +36,8 @@ def run_test(questions):
     answer = input(question.prompt)
     if answer == question.answer:
       score +=1
+  print("You got " + str(score) + "/" + str(len(questions)) +"correct")
+
 
 
 
