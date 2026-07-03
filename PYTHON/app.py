@@ -33,7 +33,7 @@ questions = [
 def run_test(questions):
   score = 0
   for question in questions:
-    answer = input(question.prompt)
+    answer = input(question_prompts)
     if answer == question.answer:
       score +=1
   print("You got " + str(score) + "/" + str(len(questions)) +"correct")
