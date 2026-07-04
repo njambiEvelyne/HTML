@@ -64,4 +64,7 @@ print()
 print("Results from a list comprehension:")
 squares2 = [value **2 for value in range(1,13)]
 print(squares2)
-
+print()
+for num in range(1,21):
+   print(num)
+   
