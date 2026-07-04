@@ -112,7 +112,11 @@ print("List of foods offered: ")
 foods = ["Orange Chicken", "Pizza", "Mashed Potato", "Grilled chicken", "Chapati"]      
 for food in foods:
    print (food)
+print()
 
+foods = ["Orange Chicken1", "Pizza2", "Mashed Potato3", "Grilled chicken4", "Chapati5"]
+for food in foods:
+   print (food)
 
 
    
