@@ -77,6 +77,12 @@ for number2 in range(1,21):
 
 cube = [values **3 for values in range(1,20)]
 print(cube)
+print()
+
+my_foods = ["Pizza", "falafel", "carrot cake"]
+friends_food = my_foods[:]
+print(friends_food)
+
       
 
    
