@@ -45,5 +45,6 @@ for pizz in pizza:
    print(f"I love {pizz} pizza")
 print("I really love pizza!")
 
-
+numbers = list(range(1,6))
+print(numbers)
 
