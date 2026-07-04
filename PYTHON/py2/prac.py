@@ -37,4 +37,11 @@ names2 = ["Evelyne", "Rosemary","Njambi", "Peter",  "Victor"]
 names2.sort()
 print(names2)
 print(f"The lenght for the list is: {len(names2)}")
+print()
+
+#Pizza stores
+pizza = ["Pepperoni", "Margheritta", "Supreme Pizza"]
+for pizz in pizza:
+   print(f"I love {pizz} pizza")
+
 
