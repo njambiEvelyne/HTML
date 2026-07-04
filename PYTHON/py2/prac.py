@@ -105,9 +105,14 @@ dimensions = (400, 100)
 print("\nModified dimensions:")
 for dimension in dimensions:
  print(dimension)
+ print()
 
 #Buffet
+print("List of foods offered: ")
 foods = ["Orange Chicken", "Pizza", "Mashed Potato", "Grilled chicken", "Chapati"]      
+for food in foods:
+   print (food)
+
 
 
    
