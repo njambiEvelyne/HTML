@@ -67,4 +67,16 @@ print(squares2)
 print()
 for num in range(1,21):
    print(num)
+print()
+
+print("A list of all odd numbers")
+for number2 in range(1,21):
+
+   if number2 %2 !=0:
+      print(number2)
+
+cube = [values **3 for values in range(1,20)]
+print(cube)
+      
+
    
