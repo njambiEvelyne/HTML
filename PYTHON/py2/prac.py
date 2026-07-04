@@ -107,6 +107,7 @@ for dimension in dimensions:
  print(dimension)
 
 #Buffet
-      
+foods = ["Orange Chicken", "Pizza", "Mashed Potato", "Grilled chicken", "Chapati"]      
+
 
    
