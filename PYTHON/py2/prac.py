@@ -48,4 +48,9 @@ print()
 
 numbers = list(range(1,6))
 print(numbers)
+print()
+print("Even numbers")
+even_numbers = list(range(0,11,2))
+print(even_numbers)
+
 
