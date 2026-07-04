@@ -1,6 +1,10 @@
 names = ["Evelyne", "Njambi", "Peter", "Rosemary", "Victor"]
+mode_of_transportation = ["Road", "Air", "Railway", "Water"]
 for name in names:
-  print(f"Hello {name}")
+  for mode in mode_of_transportation:
+      print(f"Hello {name}. You love using {mode} for travelling.")
+  print()
+
 # print(names[0])
 # print(names[1])
 # print(names[2])
