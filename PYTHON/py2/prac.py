@@ -82,6 +82,9 @@ print()
 my_foods = ["Pizza", "falafel", "carrot cake"]
 friends_food = my_foods[:]
 print(friends_food)
+my_foods.append("cannoli")
+print(my_foods)
+
 
       
 
