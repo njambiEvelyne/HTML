@@ -16,7 +16,7 @@ for name in names:
 # print(names[3])
 # print(names[4])
 
-invitees = ["Rose", "Roselyne", "Maish", "Harry"]
+invitees = ["Rose", "Roselyne", "Maish", "harry"]
 for invitee in invitees:
    print(f"Hello {invitee}. You are invited to this special dinner! Welcome")
 
@@ -30,11 +30,11 @@ for attendees in invitees:
 
 print()
 for attendee in invitees:
-   print(f"{attendee}. We are pleased to inform you that we have found a bigger dinning table!")
+   print(f"{attendee.title()}. We are pleased to inform you that we have found a bigger dinning table!")
 
 print()
 names2 = ["Evelyne", "Rosemary","Njambi", "Peter",  "Victor"]
 names2.sort()
 print(names2)
-
+print(f"The lenght for the list is: {len(names2)}")
 
