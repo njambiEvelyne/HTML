@@ -15,3 +15,7 @@ for name in names:
 # print(names[2])
 # print(names[3])
 # print(names[4])
+
+invitees = ["Rose", "Roselyne", "Maish", "Harry"]
+for invitee in invitees:
+   print(f"Hello {invitee}. You are invited to this special dinner! Welcome")
