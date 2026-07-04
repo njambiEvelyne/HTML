@@ -114,6 +114,7 @@ for food in foods:
    print (food)
 print()
 
+print("Revised menu")
 foods = ["Orange Chicken1", "Pizza2", "Mashed Potato3", "Grilled chicken4", "Chapati5"]
 for food in foods:
    print (food)
