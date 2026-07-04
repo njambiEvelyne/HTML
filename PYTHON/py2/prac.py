@@ -44,6 +44,7 @@ pizza = ["Pepperoni", "Margheritta", "Supreme Pizza"]
 for pizz in pizza:
    print(f"I love {pizz} pizza")
 print("I really love pizza!")
+print()
 
 numbers = list(range(1,6))
 print(numbers)
