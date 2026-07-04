@@ -19,3 +19,14 @@ for name in names:
 invitees = ["Rose", "Roselyne", "Maish", "Harry"]
 for invitee in invitees:
    print(f"Hello {invitee}. You are invited to this special dinner! Welcome")
+
+print()
+
+#not_attending = invitees.pop(0)
+#print(f"{not_attending} will not br attending the dinner")
+new_attendee = invitees.insert(0, "Harrington")
+for attendees in invitees:
+   print(f"{attendees} will be attending the dinner!")
+
+
+
