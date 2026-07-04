@@ -85,6 +85,14 @@ print(friends_food)
 my_foods.append("cannoli")
 print(my_foods)
 
+#Tuples
+dimensions = (20, 40)
+print("Original Dimensions:")
+for dimension in dimensions:
+   print(dimensions)
+
+dimensions = (400, 100)
+
 
       
 
