@@ -28,5 +28,9 @@ new_attendee = invitees.insert(0, "Harrington")
 for attendees in invitees:
    print(f"{attendees} will be attending the dinner!")
 
+print()
+for attendee in invitees:
+   print(f"{attendee}. We are pleased to inform you that we have found a bigger dinning table!")
+
 
 
