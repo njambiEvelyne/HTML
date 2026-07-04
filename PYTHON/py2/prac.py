@@ -32,5 +32,9 @@ print()
 for attendee in invitees:
    print(f"{attendee}. We are pleased to inform you that we have found a bigger dinning table!")
 
+print()
+names2 = ["Evelyne", "Rosemary","Njambi", "Peter",  "Victor"]
+names2.sort()
+print(names2)
 
 
