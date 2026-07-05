@@ -172,6 +172,13 @@ if age2 <2:
    print("Still a child")
 elif age2 ==2 or age2< 4:
    print("Still a toddler")
+elif age2 ==4 or age2 <13:
+   print("Still a kid")
+elif age2 ==13 or age2 <20:
+   print("Stll a teenager")
+elif age2 ==20 or age2 <65:
+   print("Person is adult")
+
    
 
 
