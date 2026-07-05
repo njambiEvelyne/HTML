@@ -142,3 +142,7 @@ else:
    price = 5
 
 
+#Testing multiple Conditions
+requested_topping = ["mushrooms", "extra cheese"]
+
+
