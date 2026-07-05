@@ -159,5 +159,7 @@ print("Alien colors")
 alien_color = ["green", "yellow", "red"]
 if "green" in alien_color:
    print("You just earned 5 points.")
-if "brown" in alien_color:
-   print()
+else:
+   print("You just earned 10 points.")
+
+
