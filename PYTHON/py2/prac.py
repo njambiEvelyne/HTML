@@ -163,6 +163,15 @@ if "yellow" in alien_color:
    print("You just earned 10 points.")
 if "red" in alien_color:
    print("You just earned 15 points.")
+print()
 
+#Stages of life
+print("The stages of life")
+age2 = 3
+if age2 <2:
+   print("Still a child")
+elif age2 ==2 or age2< 4:
+   print("Still a toddler")
+   
 
 
