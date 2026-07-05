@@ -120,5 +120,8 @@ for food in foods:
    print (food)
 
 print()
-
+banned_users = ["andrew", "carolina", "david"]
+user = "marie"
+if user not in banned_users:
+   print(f"{user.title()} you can post a response you wish.")
    
