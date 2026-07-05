@@ -180,8 +180,15 @@ elif age2 ==20 or age2 <65:
    print("Person is adult")
 else:
    print("Teh person is an elder")
-   
 
-   
+requested_topping2 = ["mushrooms", "extra cheese", "french fries"]
+available_toppings = ["mushrooms", "olives", "green peppers", "pepperoni", "pinapple", "extra cheese"]
+for requested_toppings2 in requested_topping2: 
+   if requested_toppings2 in available_toppings:
+      print(f"Adding {requested_toppings2}.")
+   else:
+      print(f"Sorry, we do not have {requested_toppings2}.")
+
+print("\nFinished making your pizza")   
 
 
