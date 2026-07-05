@@ -153,3 +153,7 @@ if "extra cheese" in requested_topping:
    print("Adding extra cheese")
 print("\nFinish making your pizza")
 
+#Alein colors
+alien_color = ["green", "yellow", "red"]
+if "green" in alien_color:
+   print("You just earned 5 points.")
