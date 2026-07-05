@@ -155,6 +155,9 @@ print("\nFinish making your pizza")
 
 print()
 #Alein colors
+print("Alien colors")
 alien_color = ["green", "yellow", "red"]
 if "green" in alien_color:
    print("You just earned 5 points.")
+if "brown" in alien_color:
+   print()
