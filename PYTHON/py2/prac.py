@@ -144,5 +144,11 @@ else:
 
 #Testing multiple Conditions
 requested_topping = ["mushrooms", "extra cheese"]
-
+if "mushrooms" in requested_topping:
+   print("Adding mushrooms.")
+if "peppperoni" in requested_topping:
+   print("Adding Pepperoni")
+if "extra cheese" in requested_topping:
+   print("Adding extra cheese")
+print("\nFinish making your pizza")
 
