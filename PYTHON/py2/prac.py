@@ -196,5 +196,8 @@ print()
 print("Username lists")
 users= ["admin", "eve", "rose", "peter","elizabeth"]
 for user in users:
-   print(f"Hello {user}") 
+   if user == "admin":
+      print(f"Hello admin")
+   else:
+      print (f"Hello {user}")
 
