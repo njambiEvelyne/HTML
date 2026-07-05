@@ -178,6 +178,9 @@ elif age2 ==13 or age2 <20:
    print("Stll a teenager")
 elif age2 ==20 or age2 <65:
    print("Person is adult")
+else:
+   print("Teh person is an elder")
+   
 
    
 
