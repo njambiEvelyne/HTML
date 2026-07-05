@@ -126,9 +126,19 @@ if user not in banned_users:
    print(f"{user.title()} you can post a response you wish.")
    
 age = 12
-if age <4:
-   print("Your admission cost is $0.")
+# if age <4:
+#    print("Your admission cost is $0.")
+# elif age <18:
+#    print("Your admission cost is $5.")
+# else:
+#    print("Your admission cost is $10.")
+if age < 4:
+   price =0
 elif age <18:
-   print("Your admission cost is $5.")
+   price = 5
+elif age <65:
+   price = 10
 else:
-   print("Your admission cost is $10.")
+   price = 5
+
+
