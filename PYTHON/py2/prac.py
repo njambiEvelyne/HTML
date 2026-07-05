@@ -179,7 +179,9 @@ elif age2 ==13 or age2 <20:
 elif age2 ==20 or age2 <65:
    print("Person is adult")
 else:
-   print("Teh person is an elder")
+   print("The person is an elder")
+
+print()
 
 requested_topping2 = ["mushrooms", "extra cheese", "french fries"]
 available_toppings = ["mushrooms", "olives", "green peppers", "pepperoni", "pinapple", "extra cheese"]
