@@ -222,4 +222,8 @@ for number in ordinal_list:
       print("1st")
    elif number ==2 :
       print("2nd")
-   
+   elif number ==3:
+      print("3rd")   
+   else: 
+      print(f"{number}th")
+
