@@ -202,3 +202,4 @@ for user in users:
       print (f"Hello {user}")
 
 current_users = ["roset", "lizbet", "rosa", "peet", "robin"]
+new_users = ["peter", "roset", "rose", "peet","elizabeth"]
