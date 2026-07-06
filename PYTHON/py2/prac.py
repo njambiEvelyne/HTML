@@ -241,4 +241,6 @@ print(alien_0)
 print("Changing the values of a dictionary")
 alien_0["color"] = "red"
 print(f"The alien color is {alien_0['color']}")
+alien_0["speed"]="medium"
+print(alien_0)
 
