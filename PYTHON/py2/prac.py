@@ -226,6 +226,7 @@ for number in ordinal_list:
       print("3rd")   
    else: 
       print(f"{number}th")
+print()
 
 ##DICTIONARIES
 alien_0={
