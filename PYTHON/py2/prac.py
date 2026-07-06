@@ -210,4 +210,6 @@ user_name = input("Enetr your user name: ")
 #          print("The user name does not exist. Add a new one!")
 #       else:
 #          print("The user name is available")
-for 
+for current_user in current_users:
+   if current_user.capitalize() == new_users.capitalize():
+      print
