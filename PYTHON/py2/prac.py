@@ -200,10 +200,11 @@ for user in users:
       print(f"Hello admin")
    else:
       print (f"Hello {user}")
+print()
 
 current_users = ["roset", "lizbet", "rosa", "peet", "robin"]
 new_users = ["peter", "roset", "rose", "peet","elizabeth"]
-user_name = input("Enetr your user name: ")
+user_name = input("Enter your user name: ")
 # for curent_user in current_users:
 #    for new_user in new_users:
 #       if new_user.capitalize() == curent_user.capitalize():
@@ -211,7 +212,9 @@ user_name = input("Enetr your user name: ")
 #       else:
 #          print("The user name is available")
 for current_user in current_users:
-   if current_user.capitalize() == new_users.capitalize():
+   if user_name.capitalize() == current_user.capitalize():
       print("The user name has been taken. Add a new one!")
-   else:
+      break
+   if user_name.capitalize != current_user.capitalize():
       print("The username is available!")
+      break
