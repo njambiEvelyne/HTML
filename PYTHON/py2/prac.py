@@ -227,3 +227,8 @@ for number in ordinal_list:
    else: 
       print(f"{number}th")
 
+##DICTIONARIES
+alien_0={
+   "color": "green",
+   "points": 5
+}
