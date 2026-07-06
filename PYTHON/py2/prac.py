@@ -213,8 +213,8 @@ user_name = input("Enter your user name: ")
 #          print("The user name is available")
 for current_user in current_users:
    if user_name.capitalize() == current_user.capitalize():
-      print("The user name has been taken. Add a new one!")
-      break
+      print(f"The user name {user_name} has been taken. Add a new one!")
+      #break
    if user_name.capitalize != current_user.capitalize():
       print("The username is available!")
-      break
+      #break
