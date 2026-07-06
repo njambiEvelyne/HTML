@@ -201,3 +201,4 @@ for user in users:
    else:
       print (f"Hello {user}")
 
+current_users = ["roset", "lizbet", "rosa", "peet", "robin"]
