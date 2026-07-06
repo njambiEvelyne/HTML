@@ -212,4 +212,6 @@ user_name = input("Enetr your user name: ")
 #          print("The user name is available")
 for current_user in current_users:
    if current_user.capitalize() == new_users.capitalize():
-      print
+      print("The user name has been taken. Add a new one!")
+   else:
+      print("The username is available!")
