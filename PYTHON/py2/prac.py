@@ -240,4 +240,5 @@ alien_0['y-position']= 25
 print(alien_0)
 print("Changing the values of a dictionary")
 alien_0["color"] = "red"
-print(alien_0)
+print(f"The alien color is {alien_0['color']}")
+
