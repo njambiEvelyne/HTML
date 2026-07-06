@@ -217,3 +217,9 @@ print()
 
 ordinal_list = list(range(1,10))
 print(ordinal_list)
+for number in ordinal_list:
+   if number == 1:
+      print("1st")
+   elif number ==2 :
+      print("2nd")
+   
