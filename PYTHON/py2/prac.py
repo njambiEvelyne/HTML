@@ -202,19 +202,18 @@ for user in users:
       print (f"Hello {user}")
 print()
 
-current_users = ["roset", "lizbet", "rosa", "peet", "robin"]
-new_users = ["peter", "roset", "rose", "peet","elizabeth"]
-user_name = input("Enter your user name: ")
-# for curent_user in current_users:
-#    for new_user in new_users:
-#       if new_user.capitalize() == curent_user.capitalize():
-#          print("The user name does not exist. Add a new one!")
-#       else:
-#          print("The user name is available")
-for current_user in current_users:
-   if user_name.capitalize() == current_user.capitalize():
-      print(f"The user name {user_name} has been taken. Add a new one!")
-      #break
-   if user_name.capitalize != current_user.capitalize():
-      print("The username is available!")
-      #break
+# current_users = ["roset", "lizbet", "rosa", "peet", "robin"]
+# new_users = ["peter", "roset", "rose", "peet","elizabeth"]
+# user_name = input("Enter your user name: ")
+
+# for current_user in current_users:
+#    if user_name.capitalize() == current_user.capitalize():
+#       print(f"The user name {user_name} has been taken. Add a new one!")
+#       #break
+#    if user_name.capitalize != current_user.capitalize():
+#       print("The username is available!")
+#       #break
+print()
+
+ordinal_list = list(range(1,10))
+print(ordinal_list)
