@@ -244,3 +244,6 @@ print(f"The alien color is {alien_0['color']}")
 alien_0["speed"]="medium"
 print(alien_0)
 
+print(f"Original x-position: {str(alien_0['x-position'])}")
+#Move alien to the right
+#Determine how far to move the alien based on its current speed
