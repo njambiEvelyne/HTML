@@ -203,3 +203,11 @@ for user in users:
 
 current_users = ["roset", "lizbet", "rosa", "peet", "robin"]
 new_users = ["peter", "roset", "rose", "peet","elizabeth"]
+user_name = input("Enetr your user name: ")
+# for curent_user in current_users:
+#    for new_user in new_users:
+#       if new_user.capitalize() == curent_user.capitalize():
+#          print("The user name does not exist. Add a new one!")
+#       else:
+#          print("The user name is available")
+for 
