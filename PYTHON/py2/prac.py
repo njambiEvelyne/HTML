@@ -298,3 +298,8 @@ for name in favourite_languages:
 print()
 for name2 in sorted(favourite_languages):
    print(f"{name2.title()}, thank you for taking the poll.")
+print()
+print("Nesting dictionaries")
+alien_1= {'color': 'green', 'points': 5}
+alien_2 = {'color': 'yellow', 'points': 10}
+alien_3 = {'color': 'red', 'points': 15}
