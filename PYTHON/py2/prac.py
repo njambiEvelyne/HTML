@@ -278,4 +278,12 @@ user_0 ={
 for key, value in user_0.items():
    print("\nKey: " + key)
    print("Value: " + value)
-   
+
+print()
+favourite_languages = {
+   "jen":"python",
+   "sarah": "c",
+   "edward": "ruby",
+   "phil": "python"
+}
+
