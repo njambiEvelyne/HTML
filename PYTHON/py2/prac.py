@@ -327,3 +327,11 @@ for alien in aliens[0:3]:
 for alien in aliens[0:5]:
    print(alien)
 print("...")
+
+print()
+print("Store info about an ordered pizza")
+pizza1 = {
+   "crust": "thick",
+   "toppings": ["mushrooms", "extra cheese"]
+}
+
