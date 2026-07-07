@@ -263,6 +263,8 @@ person = {
    "lastname": "Njambi",
    "age": 21,
    "city": "Nakuru"
-
-
 }
+print(person)
+for name in person:
+   print(f"{person['age'], person['city'], person['firstname'], person['lastname']}")
+   
