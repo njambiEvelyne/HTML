@@ -257,3 +257,12 @@ else:
 #The new position plus the increment
 alien_0["x-position"] = alien_0["x-position"] + x_increment
 print(f"New postion: {str(alien_0['x-position'])}")
+print()
+person = {
+   "firstname": "Evelyne",
+   "lastname": "Njambi",
+   "age": 21,
+   "city": "Nakuru"
+
+
+}
