@@ -295,3 +295,6 @@ for name in favourite_languages:
    
    if name in friends:
       print(f"Hi {name.title()}, I see your favoutite language is {favourite_languages[name].title()}!")
+print()
+for name2 in sorted(favourite_languages):
+   print(f"{name2.title()}, thank you for taking the poll.")
