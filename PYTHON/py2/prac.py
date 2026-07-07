@@ -334,4 +334,7 @@ pizza1 = {
    "crust": "thick",
    "toppings": ["mushrooms", "extra cheese"]
 }
+print(f"You ordered {pizza1['crust']}-crust pizza with the following toppings: ")
+for topping in pizza1["toppings"]:
+  print(f"\t {topping}")
 
