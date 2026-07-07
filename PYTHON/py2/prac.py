@@ -267,4 +267,15 @@ person = {
 print(person)
 for name in person:
    print(f"{person['age'], person['city'], person['firstname'], person['lastname']}")
+
+print()
+print("Looping through dictionaries")
+user_0 ={
+   'username': 'efermi',
+   'first': 'enrico',
+   'last': 'fermi'
+}
+for key, value in user_0.items():
+   print("\nKey: " + key)
+   print("Value: " + value)
    
