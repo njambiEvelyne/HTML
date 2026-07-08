@@ -356,4 +356,18 @@ for name4, language2 in favorite_languages2.items():
    print(f"\n {name4.title()}'s favorite languages are:")
    for language in language2:
       print(f"\t {language.title()}")
-      
+print()
+print("Dictionary in a dictionary!")
+users4 = {
+ 'aeinstein': {
+ 'first': 'albert',
+ 'last': 'einstein',
+ 'location': 'princeton',
+   },
+'mcurie': {
+ 'first': 'marie',
+ 'last': 'curie',
+ 'location': 'paris',
+   }
+}
+
