@@ -346,3 +346,14 @@ print(f"The invited people are from {invited_people['course']}. Below are the na
 for invitee3 in invited_people["invited_names"]:
    print(f"\t{invitee3}")
 
+favorite_languages2 = {
+    'jen': ['python', 'ruby'],
+    'sarah': ['c'],
+    'edward': ['ruby', 'go'],
+    'phil': ['python', 'haskell'],
+}
+for name4, language2 in favorite_languages2.items():
+   print(f"\n {name4.title()}'s favorite languages are:")
+   for language in language2:
+      print(f"\t {language.title()}")
+      
