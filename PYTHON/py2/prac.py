@@ -342,3 +342,7 @@ invited_people = {
    "course": "SOEN",
    "invited_names": ["Evelyne", "Njambi", "Rose", "Mary"]
 }
+print(f"The invited people are from {invited_people['course']}. Below are the names: ")
+for invitee3 in invited_people["invited_names"]:
+   print(f"\t{invitee3}")
+
