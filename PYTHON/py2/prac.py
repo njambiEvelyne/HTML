@@ -338,3 +338,7 @@ print(f"You ordered {pizza1['crust']}-crust pizza with the following toppings: "
 for topping in pizza1["toppings"]:
   print(f"\t {topping}")
 
+invited_people = {
+   "course": "SOEN",
+   "invited_names": ["Evelyne", "Njambi", "Rose", "Mary"]
+}
