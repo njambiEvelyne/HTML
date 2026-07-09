@@ -380,8 +380,14 @@ for username, user_info in users4.items():
    print(f"\tLocation: {location.title()}")
 
 foods_supply = {
-   "pasteries": {
+   "fast_foods": {
       "cakes": "marble cakes",
+      "drinks":"soda",
+      "pizza":"pepperoni"
+   },
+   "fruits":{
+      "fresh": "Apples",
+      "two_days_old": "mangoes",
       ""
    }
 }
