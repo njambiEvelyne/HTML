@@ -378,4 +378,10 @@ for username, user_info in users4.items():
 
    print(f"\tFull name: {full_name.title()}")
    print(f"\tLocation: {location.title()}")
-   
+
+foods_supply = {
+   "pasteries": {
+      "cakes": "marble cakes",
+      ""
+   }
+}
