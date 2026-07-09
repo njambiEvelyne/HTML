@@ -392,6 +392,6 @@ foods_supply = {
    }
 }
 
-for food, details in foods_supply.items():
-   print(f"\n food: {food}")
-   food_detail = details["cakes"] + " " + details["pizza"]
+# for food, details in foods_supply.items():
+#    print(f"\n food: {food}")
+#    food_detail = details["cakes"] + " " + details["pizza"]
