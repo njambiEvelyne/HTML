@@ -388,6 +388,6 @@ foods_supply = {
    "fruits":{
       "fresh": "Apples",
       "two_days_old": "mangoes",
-      ""
+      "one_week_old":"Water melon"
    }
 }
