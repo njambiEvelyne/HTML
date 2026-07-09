@@ -391,3 +391,7 @@ foods_supply = {
       "one_week_old":"Water melon"
    }
 }
+
+for food, details in foods_supply.items():
+   print(f"\n food: {food}")
+   
