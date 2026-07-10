@@ -403,4 +403,8 @@ if height >=36:
    print("\nYou are tall enough to ride!")
 else:
    print("\n You will be able to ride when you become a littel bit taller!")
+current_number= 0
+while current_number<=5:
+   print(current_number)
+   current_number +=1
    
