@@ -408,3 +408,7 @@ while current_number<=5:
    print(current_number)
    current_number +=1
    
+   
+prompt = "\n Tell me something I will repeat it back to you: "
+prompt += "\n Enetr 'quit' to emd the program"
+message =""
