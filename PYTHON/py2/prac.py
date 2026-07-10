@@ -396,3 +396,11 @@ for username, user_info in users4.items():
 #    print(f"\n food: {food}")
 #    food_detail = details["cakes"] + " " + details["pizza"]
 
+#User input and loops
+height = input("How tall are you in inches? ")
+height = int(height)
+if height >=36:
+   print("\nYou are tall enough to ride!")
+else:
+   print("\n You will be able to ride when you become a littel bit taller!")
+   
