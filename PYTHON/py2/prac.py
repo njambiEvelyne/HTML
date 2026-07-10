@@ -412,3 +412,5 @@ while current_number<=5:
 prompt = "\n Tell me something I will repeat it back to you: "
 prompt += "\n Enetr 'quit' to emd the program"
 message =""
+while message != 'quit':
+   message = input(prompt)
