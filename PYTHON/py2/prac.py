@@ -379,19 +379,20 @@ for username, user_info in users4.items():
    print(f"\tFull name: {full_name.title()}")
    print(f"\tLocation: {location.title()}")
 
-foods_supply = {
-   "fast_foods": {
-      "cakes": "marble cakes",
-      "drinks":"soda",
-      "pizza":"pepperoni"
-   },
-   "fruits":{
-      "fresh": "Apples",
-      "two_days_old": "mangoes",
-      "one_week_old":"Water melon"
-   }
-}
+# foods_supply = {
+#    "fast_foods": {
+#       "cakes": "marble cakes",
+#       "drinks":"soda",
+#       "pizza":"pepperoni"
+#    },
+#    "fruits":{
+#       "fresh": "Apples",
+#       "two_days_old": "mangoes",
+#       "one_week_old":"Water melon"
+#    }
+# }
 
 # for food, details in foods_supply.items():
 #    print(f"\n food: {food}")
 #    food_detail = details["cakes"] + " " + details["pizza"]
+
