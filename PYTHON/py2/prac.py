@@ -414,3 +414,4 @@ prompt += "\n Enetr 'quit' to emd the program"
 message =""
 while message != 'quit':
    message = input(prompt)
+   print(message)
