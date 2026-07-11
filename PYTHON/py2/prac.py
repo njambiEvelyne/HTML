@@ -420,3 +420,4 @@ while active:
       print(message)
 
 prompt2 = "\n Please enter the city you visited:"
+prompt2 = "\n (Enter 'quit' when you are finished.)"
