@@ -419,5 +419,4 @@ while active:
    else:
       print(message)
 
-topping_prompt  = "\n Enter the lists for toppings that you would love fot your pizza: "
-topping_list = " "
+prompt2 = "\n Please enter the city you visited:"
