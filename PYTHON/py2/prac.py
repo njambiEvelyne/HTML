@@ -426,3 +426,5 @@ while True:
    city = input(prompt2)
    if city == 'quit':
       break
+   else:
+      print("I'd love to go to " + city.title() + "!")
