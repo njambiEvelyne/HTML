@@ -424,3 +424,5 @@ prompt2 = "\n (Enter 'quit' when you are finished.)"
 
 while True:
    city = input(prompt2)
+   if city == 'quit':
+      break
