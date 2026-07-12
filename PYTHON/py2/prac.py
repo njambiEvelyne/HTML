@@ -430,3 +430,5 @@ while True:
       print("I'd love to go to " + city.title() + "!")
 
 #Using a while loop with lists and dictionaries
+unconfirmed_users = ['alice', 'brian', 'candace']
+confirmed_users = []
