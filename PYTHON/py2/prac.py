@@ -435,4 +435,6 @@ confirmed_users = []
 # Verify each user until there are no more unconfirmed users.
 # Move each verified user into the list of confirmed users.
 while unconfirmed_users:
-   current_number = unconfirmed_users.pop()
+   current_user = unconfirmed_users.pop()
+   print(f"Veryfying user: {current_user.title()}")
+   
