@@ -434,3 +434,5 @@ unconfirmed_users = ['alice', 'brian', 'candace']
 confirmed_users = []
 # Verify each user until there are no more unconfirmed users.
 # Move each verified user into the list of confirmed users.
+while unconfirmed_users:
+   current_number = unconfirmed_users.pop()
