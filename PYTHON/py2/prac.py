@@ -440,3 +440,5 @@ while unconfirmed_users:
    confirmed_users.append(current_user)
 #Display all confirmed users
 print("The following users have been confirmed: ")
+for confirmed_user in confirmed_users:
+   print(confirmed_user.title())
