@@ -439,3 +439,4 @@ while unconfirmed_users:
    print(f"Veryfying user: {current_user.title()}")
    confirmed_users.append(current_user)
 #Display all confirmed users
+print("The following users have been confirmed: ")
