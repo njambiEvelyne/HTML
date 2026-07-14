@@ -446,4 +446,6 @@ print()
 #Removing all instances of specific values from a list
 pets = ["dog", "cat", "goldfish", "cat", "rabbit", "cat"]
 print()
-
+while "cat" in pets:
+   pets.remove("cat")
+print(pets)
