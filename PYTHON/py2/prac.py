@@ -442,3 +442,4 @@ while unconfirmed_users:
 print("The following users have been confirmed: ")
 for confirmed_user in confirmed_users:
    print(confirmed_user.title())
+#Removing all instances of specific
