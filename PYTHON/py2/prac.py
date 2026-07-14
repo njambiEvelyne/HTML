@@ -442,5 +442,8 @@ while unconfirmed_users:
 print("The following users have been confirmed: ")
 for confirmed_user in confirmed_users:
    print(confirmed_user.title())
+print()
 #Removing all instances of specific values from a list
-pets = ["gog", "cat", "goldfish". "cat", "rabbit", "cat"]
+pets = ["dog", "cat", "goldfish", "cat", "rabbit", "cat"]
+print()
+
