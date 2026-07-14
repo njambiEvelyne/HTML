@@ -443,3 +443,4 @@ print("The following users have been confirmed: ")
 for confirmed_user in confirmed_users:
    print(confirmed_user.title())
 #Removing all instances of specific values from a list
+pets = ["gog", "cat", "goldfish". "cat", "rabbit", "cat"]
