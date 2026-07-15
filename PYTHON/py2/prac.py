@@ -269,6 +269,7 @@ for name in person:
    print(f"{person['age'], person['city'], person['firstname'], person['lastname']}")
 
 print()
+
 print("Looping through dictionaries")
 user_0 ={
    'username': 'efermi',
