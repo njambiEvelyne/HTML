@@ -397,12 +397,12 @@ for username, user_info in users4.items():
 #    food_detail = details["cakes"] + " " + details["pizza"]
 
 #User input and loops
-height = input("How tall are you in inches? ")
-height = int(height)
-if height >=36:
-   print("\nYou are tall enough to ride!")
-else:
-   print("\n You will be able to ride when you become a littel bit taller!")
+# height = input("How tall are you in inches? ")
+# height = int(height)
+# if height >=36:
+#    print("\nYou are tall enough to ride!")
+# else:
+#    print("\n You will be able to ride when you become a littel bit taller!")
 current_number= 0
 while current_number<=5:
    print(current_number)
@@ -447,7 +447,7 @@ for confirmed_user in confirmed_users:
 print()
 #Removing all instances of specific values from a list
 pets = ["dog", "cat", "goldfish", "cat", "rabbit", "cat"]
-print()
+print(pets)
 while "cat" in pets:
    pets.remove("cat")
 print(pets)
