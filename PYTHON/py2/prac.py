@@ -452,3 +452,4 @@ while "cat" in pets:
    pets.remove("cat")
 print(pets)
 print()
+#Filling a Dictionary with user input
