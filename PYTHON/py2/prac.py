@@ -423,7 +423,7 @@ while active:
 prompt2 = "\n Please enter the city you visited:"
 prompt2 = "\n (Enter 'quit' when you are finished.)"
 
-#while True:
+while True:
    city = input(prompt2)
    if city == 'quit':
       break
