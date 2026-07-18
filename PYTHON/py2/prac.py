@@ -454,3 +454,4 @@ while "cat" in pets:
 print(pets)
 print()
 #Filling a Dictionary with user input
+responses ={}
