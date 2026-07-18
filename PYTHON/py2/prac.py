@@ -459,3 +459,7 @@ polling_active = True
 while polling_active:
    name0 = input("\nWhat is your name? ")
    response =input("Which mountain would you like to climb someday? ")
+  
+   #Store responses in a dictionary
+   responses[name0] = response
+   
