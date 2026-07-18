@@ -462,4 +462,8 @@ while polling_active:
   
    #Store responses in a dictionary
    responses[name0] = response
-   
+
+   #Find out if anyone else is going to take the poll
+   repeat = input("Would you like to let another person respond? (yes/ no)")
+   if repeat ("no"):
+      
