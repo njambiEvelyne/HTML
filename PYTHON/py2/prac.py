@@ -476,3 +476,4 @@ for name9, response in responses.items():
 def greet():
    print("Hello user")
 greet()
+#Return statements
