@@ -471,3 +471,8 @@ while polling_active:
 print("\n---Poll results---")
 for name9, response in responses.items():
    print(f"{name0} would like to climb {response}.")
+
+#Functions
+def greet():
+   print("Hello user")
+greet()
