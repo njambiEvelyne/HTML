@@ -483,3 +483,5 @@ def formatted_name(first_name, last_name):
    
 musician = formatted_name("Evelyne", "Njambi")
 print(musician)
+
+#Making an argument optional
