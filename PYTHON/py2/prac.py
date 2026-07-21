@@ -495,3 +495,5 @@ def get_formatted_name(first_name, middle_name, last_name):
 musician2 = get_formatted_name("Eva", "Rosa", "Emilia")
 print(musician2)
 #Returning optional name selection
+def get_formatted_name2(first_name, middle_name, last_name):
+   
