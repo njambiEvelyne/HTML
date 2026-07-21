@@ -486,4 +486,7 @@ print(musician)
 
 #Making an argument optional
 def get_formatted_name(first_name, middle_name, last_name):
+   """
+   Return a full name, neatly formatted
+   """
    
