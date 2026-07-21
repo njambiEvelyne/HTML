@@ -489,4 +489,8 @@ def get_formatted_name(first_name, middle_name, last_name):
    """
    Return a full name, neatly formatted
    """
-   
+   full_name2 = first_name + ' '+ middle_name + ' '+ last_name
+   return full_name2
+
+musician2 = get_formatted_name("Eva", "Rosa", "Emilia")
+print(musician2)
