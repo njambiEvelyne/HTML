@@ -504,4 +504,4 @@ def get_formatted_name2(first_name, middle_name, last_name):
    return full_name.title()
 musician3 = get_formatted_name("Evelyne", "Ng'ang'a")
 print(musician3)
-musician6 = get_formatted_name
+musician6 = get_formatted_name("Rose")
