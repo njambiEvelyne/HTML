@@ -495,14 +495,14 @@ def get_formatted_name(first_name, middle_name, last_name):
 musician2 = get_formatted_name("Eva", "Rosa", "Emilia")
 print(musician2)
 #Returning optional name selection
-def get_formatted_name2(first_name, middle_name, last_name):
-   if middle_name:
-      full_name = first_name + ' ' + middle_name + ' ' + last_name
-   else:
-      full_name = first_name + ' ' + last_name
+# def get_formatted_name2(first_name, middle_name, last_name):
+#    if middle_name:
+#       full_name = first_name + ' ' + middle_name + ' ' + last_name
+#    else:
+#       full_name = first_name + ' ' + last_name
 
-   return full_name.title()
-musician3 = get_formatted_name2("Evelyne", "Ng'ang'a")
-print(musician3)
-musician6 = get_formatted_name2("Rose", "Mary", "Muthoni")
-print(musician6)
+#    return full_name.title()
+# musician3 = get_formatted_name2("Evelyne", "Ng'ang'a")
+# print(musician3)
+# musician6 = get_formatted_name2("Rose", "Mary", "Muthoni")
+# print(musician6)
