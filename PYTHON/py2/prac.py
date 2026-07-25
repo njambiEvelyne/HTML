@@ -508,3 +508,4 @@ print(musician2)
 # print(musician6)
 def get_formatted_name2(first_name, last_name):
  """Return a full name, neatly formatted"""
+ full_name = first_name + last_name
