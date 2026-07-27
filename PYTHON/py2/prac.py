@@ -512,4 +512,5 @@ def get_formatted_name2(first_name, last_name):
  return full_name.title()
 
 while True: 
+   print("(Eneter 'q' at any time to quit)")
    
