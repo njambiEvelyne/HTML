@@ -523,7 +523,7 @@ while True:
    if l_name == 'q': 
       break
 
-formatted_name = 
+formatted_name = get_formatted_name2(f_name, l_name)
 
 
 
