@@ -515,6 +515,8 @@ while True:
    print("\nPlease tell me our name:")
    print("(Eneter 'q' at any time to quit)")
    
+   f_name = input("First name:")
    if f_name == 'q':
      break 
+
    
