@@ -523,7 +523,8 @@ while True:
    if l_name == 'q': 
       break
 
-   
+formatted_name = 
+
 
 
    
