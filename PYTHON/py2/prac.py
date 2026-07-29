@@ -524,7 +524,7 @@ while True:
       break
 
 formatted_name = get_formatted_name2(f_name, l_name)
-prin
+print 
 
 
    
