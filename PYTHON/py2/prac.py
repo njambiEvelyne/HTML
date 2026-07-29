@@ -454,6 +454,7 @@ while "cat" in pets:
 print(pets)
 print()
 #Filling a Dictionary with user input
+#Adding data in a dictionary
 responses ={}
 polling_active = True
 while polling_active:
