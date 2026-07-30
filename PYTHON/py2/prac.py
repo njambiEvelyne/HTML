@@ -529,3 +529,4 @@ print (formatted_name)
 
 #Passimg a list in a dictionary
 def greet_user(names6):   
+   """Print a simple greeting to each user in the list"""
