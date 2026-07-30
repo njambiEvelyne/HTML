@@ -528,4 +528,4 @@ formatted_name = get_formatted_name2(f_name, l_name)
 print (formatted_name)
 
 #Passimg a list in a dictionary
-   
+def greet_user(names6):   
