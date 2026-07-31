@@ -532,3 +532,4 @@ def greet_user(names6):
    """Print a simple greeting to each user in the list"""
    for name7 in names6:
       msg = "Hello ," + names6.title() + "!"
+      print(msg)
