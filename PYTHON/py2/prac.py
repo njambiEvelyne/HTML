@@ -536,3 +536,7 @@ def greet_user(names6):
       print(msg)
 user_names = ["hannah", "ty", "margot"] 
 greet_user(user_names)
+
+#Modifying a list using functions
+umprinted_models = ["i phone case", "robot pendant", "dodecahedron"]
+completed_models =[]
