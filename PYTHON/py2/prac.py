@@ -540,3 +540,15 @@ greet_user(user_names)
 #Modifying a list using functions
 umprinted_models = ["i phone case", "robot pendant", "dodecahedron"]
 completed_models =[]
+def print_models(unprinted_models, completed_models):
+   """
+   Simulate printing each design until none is left.
+   Move each design to completed_models after printing
+   """
+   while unprinted_models:
+      current_design = umprinted_models.pop()
+      
+      #Simulate creating a 3D print from the design
+      print(f"Printing model:{current_design}")
+      completed_models.append(current_design)
+      
