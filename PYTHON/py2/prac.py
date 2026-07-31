@@ -526,10 +526,13 @@ while True:
 
 formatted_name = get_formatted_name2(f_name, l_name)
 print (formatted_name)
+print()
 
 #Passimg a list in a dictionary
 def greet_user(names6):   
    """Print a simple greeting to each user in the list"""
    for name7 in names6:
-      msg = "Hello ," + names6.title() + "!"
+      msg = "Hello ," + name7.title() + "!"
       print(msg)
+user_names = ["hannah", "ty", "margot"] 
+greet_user(user_names)
