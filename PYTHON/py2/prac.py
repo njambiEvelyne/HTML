@@ -514,7 +514,7 @@ def get_formatted_name2(first_name, last_name):
 
 while True: 
    print("\nPlease tell me our name:")
-   print("(Eneter 'q' at any time to quit)")
+   print("(Enter 'q' at any time to quit)")
    
    f_name = input("First name:")
    if f_name == 'q':
