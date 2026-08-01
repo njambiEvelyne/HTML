@@ -562,4 +562,4 @@ unprinted_models = ["i phone case", "robot pendant", "dodecahedron"]
 completed_models =[]
 print_models(unprinted_models, completed_models)
 show_completed_models(completed_models)
-magicians= []
+magicians= ["magdelene", "margarita", "marcella"]
