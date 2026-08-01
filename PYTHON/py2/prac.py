@@ -411,7 +411,7 @@ while current_number<=5:
    
    
 prompt = "\n Tell me something I will repeat it back to you: "
-prompt += "\n Enter 'quit' to end the program: "
+#prompt += "\n Enter 'quit' to end the program: "
 active = True
 while active:
    message = input(prompt)
@@ -421,7 +421,7 @@ while active:
       print(message)
 
 prompt2 = "\n Please enter the city you visited:"
-prompt2 = "\n (Enter 'quit' when you are finished.)"
+#prompt2 = "\n (Enter 'quit' when you are finished.)"
 
 while True:
    city = input(prompt2)
