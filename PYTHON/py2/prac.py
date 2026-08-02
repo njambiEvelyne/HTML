@@ -568,3 +568,4 @@ def show_magicians(magicians):
    for magician in magicians:
       print(magician)
 magicians= ["magdelene", "margarita", "marcella"]
+show_magicians()
