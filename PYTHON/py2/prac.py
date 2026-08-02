@@ -566,4 +566,4 @@ magicians= ["magdelene", "margarita", "marcella"]
 
 def show_magicians(magicians):
    for magician in magicians:
-      print(magicians)
+      print(magician)
