@@ -569,3 +569,5 @@ def show_magicians(magicians):
       print(magician)
 magicians= ["magdelene", "margarita", "marcella"]
 show_magicians(magicians)
+
+#Passing an arbitrary number of Arguments
