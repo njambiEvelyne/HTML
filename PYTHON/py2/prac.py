@@ -572,4 +572,6 @@ show_magicians(magicians)
 
 #Passing an arbitrary number of Arguments
 def make_pizza(*toppings):
-   
+   """
+   Print the list of toppings
+   """
