@@ -575,7 +575,8 @@ def make_pizza2(*toppings2):
    """
    Print the list of toppings that have been requested
    """
-   print(toppings2)
+   print(toppings2.title())
 
 make_pizza2("Pepperoni")
+make_pizza2("mussrooms", "green peppers", "extra cheese")
 
