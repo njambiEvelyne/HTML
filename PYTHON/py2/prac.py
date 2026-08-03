@@ -571,7 +571,8 @@ magicians= ["magdelene", "margarita", "marcella"]
 show_magicians(magicians)
 
 #Passing an arbitrary number of Arguments
-def make_pizza(*toppings):
+def make_pizza(*toppings2):
    """
    Print the list of toppings that have been requested
    """
+   print(toppings2)
