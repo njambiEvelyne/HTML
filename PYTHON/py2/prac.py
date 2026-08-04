@@ -594,5 +594,5 @@ def make_pizza_summarise(*topping3):
       print("-" + topppin4)
 
 make_pizza_summarise("pepperoni")
-make_pizza_summarise("musgrooms", "green peppers", "extra cheese")
+make_pizza_summarise("mushrooms", "green peppers", "extra cheese")
 
