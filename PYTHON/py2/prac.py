@@ -588,4 +588,4 @@ def make_pizza_summarise(*topping3):
    """
    Summarise the pizza we are about to make
    """
-
+   print("\nMake a pizza that has the following toppings:")
