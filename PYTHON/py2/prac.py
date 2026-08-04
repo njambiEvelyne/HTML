@@ -520,7 +520,7 @@ while True:
    if f_name == 'q':
      break 
 
-   l_name = input("Last Name")
+   l_name = input("Last Name: ")
    if l_name == 'q': 
       break
 
@@ -575,7 +575,8 @@ def make_pizza2(*toppings2):
    """
    Print the list of toppings that have been requested
    """
-   print(toppings2.title())
+   for top in toppings2:   
+      print(top.title())
 
 make_pizza2("Pepperoni")
 make_pizza2("mussrooms", "green peppers", "extra cheese")
