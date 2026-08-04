@@ -579,4 +579,7 @@ def make_pizza2(*toppings2):
 
 make_pizza2("Pepperoni")
 make_pizza2("mussrooms", "green peppers", "extra cheese")
+"""
+Asterisk is used to create an arbitrary number of arguments and parameters
+"""
 
