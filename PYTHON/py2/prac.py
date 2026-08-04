@@ -590,4 +590,6 @@ def make_pizza_summarise(*topping3):
    """
    print("\nMake a pizza that has the following toppings:")
    for topppin4 in topping3:
+      print("-" + topppin4)
       
+
