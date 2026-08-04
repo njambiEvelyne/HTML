@@ -583,3 +583,6 @@ make_pizza2("mussrooms", "green peppers", "extra cheese")
 Asterisk is used to create an arbitrary number of arguments and parameters
 """
 
+#Created a function to summarise the pizza to be made
+
+
