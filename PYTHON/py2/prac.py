@@ -584,5 +584,8 @@ Asterisk is used to create an arbitrary number of arguments and parameters
 """
 
 #Created a function to summarise the pizza to be made
-
+def make_pizza_summarise(*topping3):
+   """
+   Summarise the pizza we are about to make
+   """
 
