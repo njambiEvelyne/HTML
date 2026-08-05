@@ -600,4 +600,5 @@ def make_pzz(size, *tops):
    """
    Summarise the pizza we are about to make
    """
+   print("\nMaking a " + str(size) + "-inch")
 
