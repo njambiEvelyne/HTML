@@ -617,6 +617,7 @@ def build_profile(first, last, *user_info):
    for key, value in profile.items():
       profile[key] = value
    return profile
+user_profile = build_profile("albert", "einstein", location = "princeton", field = )
 
 
 
