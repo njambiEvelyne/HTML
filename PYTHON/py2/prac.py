@@ -610,6 +610,8 @@ make_pzz("12", "mushrooms", "green pepper")
 
 #Using Arbitrary Keywords Arguments
 def build_profile(first, last, *user_info):
+   """Build a dictionary containing everything we know bout a user."""
+   profile={}
    
 
 
