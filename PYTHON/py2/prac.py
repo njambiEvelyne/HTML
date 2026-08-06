@@ -606,7 +606,7 @@ def make_pzz(size, *tops):
       print("-" + topp)
 
 make_pzz(16, "pepperoni")
-
+make_pzz("12", "mushrooms", "green pepper")
 
 
 
