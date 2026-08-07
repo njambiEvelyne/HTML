@@ -1,2 +1,2 @@
 from prac import make_pzz
-pizza.make
+make_pzz.make
