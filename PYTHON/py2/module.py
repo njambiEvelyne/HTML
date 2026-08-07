@@ -1,1 +1,2 @@
-from prac import pizza
+from prac import make_pzz
+pizza.make
