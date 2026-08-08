@@ -1,2 +1,2 @@
 from prac import make_pzz
-make_pzz.pizza(16, "pepperoni")
+make_pzz.pizza(16, "mushroom")
