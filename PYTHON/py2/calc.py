@@ -14,4 +14,5 @@ elif operator == "/":
     result = num1 / num2
 else:
   result = "Invalid Oprerator"
-  
+
+print("Result: " result)
