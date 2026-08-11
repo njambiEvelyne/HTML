@@ -7,5 +7,9 @@ elif operator == "-":
   result = num1 - num2
 elif operator == "*":
   result = num1 * num2
-
+elif operator == "/":
+  if num1 == 0:
+    result= "Error. Cannot divide by zero"
+  else:
+    result = num1 / num2
 
