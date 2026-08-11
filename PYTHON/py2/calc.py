@@ -12,4 +12,6 @@ elif operator == "/":
     result= "Error. Cannot divide by zero"
   else:
     result = num1 / num2
-
+else:
+  result = "Invalid Oprerator"
+  
