@@ -1,0 +1,1 @@
+num1 = float(input("Enter the fifrts number: "))
