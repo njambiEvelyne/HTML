@@ -20,3 +20,5 @@ print("Result: ", result)
 #Checkikg for odd or even numbres
 num = int(input("Enter a number: "))
 if num % 2 ==0:
+  print("Even Number")
+
