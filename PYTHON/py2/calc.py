@@ -16,3 +16,7 @@ else:
   result = "Invalid Oprerator"
 
 print("Result: ", result)
+
+#Checjikg for odd or even numbres
+
+
