@@ -17,6 +17,6 @@ else:
 
 print("Result: ", result)
 
-#Checjikg for odd or even numbres
-
+#Checkikg for odd or even numbres
+num = int(input("Enter a number: "))
 
