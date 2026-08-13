@@ -21,5 +21,5 @@ print("Result: ", result)
 num = int(input("Enter a number: "))
 if num % 2 ==0:
   print("Even Number")
-else
+else:
   print("Odd Number")
