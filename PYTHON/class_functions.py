@@ -8,5 +8,5 @@ class Student:
     if self.gpa >= 3.5:
       return True
     else:
-      return Fals
+      return False
 
