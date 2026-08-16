@@ -101,7 +101,7 @@ number_grid = [
 print(number_grid[2] [1])  
 
 for row in number_grid:
-  for column in row:
+  for column in row
     print(column)
     
 
