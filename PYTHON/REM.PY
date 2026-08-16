@@ -78,7 +78,7 @@ for num in range((len(friends))
 for index in range(10):
   print(index)
 
-for ind in range(5):
+for  in range(5):
   if ind == 0:
     print("First Iteration")
   else:
