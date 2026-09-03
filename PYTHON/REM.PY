@@ -99,7 +99,7 @@ number_grid = [
   [7,8,9],
   [0]
 ]
-print(number_grid[2] [1])  
+print(number_grid[2] [1]
 
 for row in number_grid:
   for column in row:
