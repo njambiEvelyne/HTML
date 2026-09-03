@@ -80,9 +80,10 @@ for index in range(10):
 
 for ind in range(5):
   if ind == 0:
-    print("First Iteration")
-  else:
-    print("Not first")
+    if i== 0:
+      print("First Iteration")
+    else:
+      print("Not first")
 
 def raise_to_power(base_number, pow_num):
    result4 = 1
