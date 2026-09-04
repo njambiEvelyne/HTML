@@ -91,7 +91,7 @@ def raise_to_power(base_number, pow_num):
      result4 = result4 * base_number
    return result4
 
-print(raise_to_power(2,4))
+print(raise_to_power(2,4
 
 number_grid = [
   [1,2,3],
