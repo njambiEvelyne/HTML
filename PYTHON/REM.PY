@@ -76,7 +76,7 @@ for num in range((len(friends))
   print(num)
 
 for index in range(10):
-  print(index
+  print(index)
 
 for ind in range(5):
   if ind == 0:
