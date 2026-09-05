@@ -86,7 +86,7 @@ for ind in range(5):
       print("Not first")
 
 def raise_to_power(base_number, pow_num):
-   result4 = 1
+   result4 = 
    for index2 in range(pow_num):
      result4 = result4 * base_number
    return result4
