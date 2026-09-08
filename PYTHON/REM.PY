@@ -64,7 +64,7 @@ while (i<=9):
   print(i)
   i+=1
 
-print("Done with loop")
+print("Done with loop"
 
 #For loop
 friends=["Jane", "Karen", "Kevin"]
