@@ -73,7 +73,7 @@ for friend in friends:
 
 for num in range((len(friends))
 )  :
-  print(nu)))
+  print(nu))
 
 for index in range(10):
   print(index)
