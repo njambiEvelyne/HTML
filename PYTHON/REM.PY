@@ -79,7 +79,7 @@ for index in range(10):
   print(index)
 
 for ind in range(5):
-  if ind == 0:
+  if ind == 0:]
     if i== 0:
       print("First Iteration")
     else:
