@@ -106,7 +106,7 @@ for row in number_grid:
     print(column)
     
 
-
+answer = int(input("Enter a number: "))
 
 
   
