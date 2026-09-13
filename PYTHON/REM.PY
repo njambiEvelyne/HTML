@@ -110,6 +110,7 @@ answer = int(input("Enter a number: "))
 if answer >10:
   print("You entered a number greater than 10")
 elif answer < 10:
+  print("You entered a number less than 10")
 
   
 
