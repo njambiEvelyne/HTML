@@ -107,7 +107,8 @@ for row in number_grid:
     
 
 answer = int(input("Enter a number: "))
-if answer
+if answer >10:
+  
 
   
 
