@@ -113,7 +113,7 @@ elif answer < 10:
   print("You entered a number less than 10")
 
 num = int(input("Enter a number: "))
-
+if num  >0 and c
   
 
 
