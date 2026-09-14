@@ -123,3 +123,5 @@ if num != 0 and num != 10:
     print("You entered a number that is not equal to 0 or 10")
 if num >= 0 and num <= 10:
     print("You entered a number between 0 and 10 inclusive")  
+if num < 0 or num > 10:
+    print("You entered a number outside the range of 0 to 10")  
