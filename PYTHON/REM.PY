@@ -112,6 +112,8 @@ if answer >10:
 elif answer < 10:
   print("You entered a number less than 10")
 
+num
+
   
 
 
