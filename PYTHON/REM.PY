@@ -142,4 +142,4 @@ else:
     print("Invalid operator")
 
 #A mini download manager
-num = 
+num = int
