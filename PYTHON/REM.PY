@@ -106,7 +106,7 @@ for row in number_grid:
     print(column)
     
 
-answer = int(input("Enter a number: "))
+answer2 = int(input("Enter a number: "))
 if answer >10:
   print("You entered a number greater than 10")
 elif answer < 10:
