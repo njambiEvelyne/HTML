@@ -143,4 +143,4 @@ else:
 
 #A mini download manager
 num = int(input("Enter the first number: "))
-num2 = float(input("Enter the second number: ")
+num2 = float(input("Enter the second number: "))
