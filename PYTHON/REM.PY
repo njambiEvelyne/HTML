@@ -132,7 +132,7 @@ num2 = int(input("Enter second number: "))
 
 if op == "+":
     print(num1 + num2)
-elif op == "-":
+elif op == "-"
     print(num1 - num2)
 elif op == "*":
     print(num1 * num2)
