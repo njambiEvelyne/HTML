@@ -126,7 +126,7 @@ if num >= 0 and num <= 10:
 if num < 0 or num > 10:
     print("You entered a number outside the range of 0 to 10")  
 #Calculator
-num1 = int(input("Enter first number: "))
+num1 = int(input("Enter first number: ")
 op = input("Enter operator: ")
 num2 = int(input("Enter second number: "))
 
