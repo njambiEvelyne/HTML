@@ -27,7 +27,7 @@ def subtract():
     print(result)
   else:
     print("The result is positive")
-    result = num1-num2
+    result = num1-num
     print(result)
 
 def multiply():
