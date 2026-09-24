@@ -41,7 +41,7 @@ def divide():
   print("This is division")
   num1 = int(input("Enter the first number: "))
   num2 = int(input("Enter the second number: "))
-  if(num2 ==0)
+  if(num2 ==0):
     print("Zero didvision error")
   else:
     result = num1 /num2
