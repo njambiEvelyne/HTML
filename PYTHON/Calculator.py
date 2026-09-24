@@ -47,7 +47,7 @@ def divide():
     result = num1 /num2
     print(result)
 
-def modulus():
+def modulus()
   print("This is modulus")
   num1 = int(input("Enter the first number: "))
   num2 = int(input("Enter the second number: "))
