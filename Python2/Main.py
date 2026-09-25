@@ -38,7 +38,7 @@ def calculator():
                 elif choice == '2':
                     print(f"{num1} - {num2} = {subtract(num1, num2)}")
                 elif choice == '3':
-                    print(f"{num1} × {num2} = {multiply(num1, num2)}")
+                    print(f"{num1}  {num2} = {multiply(num1, num2)}")
                 elif choice == '4':
                     print(f"{num1} ÷ {num2} = {divide(num1, num2)}")
             except ValueError:
