@@ -46,5 +46,5 @@ def calculator():
         else:
             print("Invalid choice! Please select 1, 2, 3, 4, or 5.")
 
-if __name__ == "__main__":
+if __name__ == "__main__"
     calculator()
