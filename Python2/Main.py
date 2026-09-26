@@ -42,7 +42,7 @@ def calculator():
                 elif choice == '4':
                     print(f"{num1} ÷ {num2} = {divide(num1, num2)}")
             except ValueError:
-                print("Invalid input! Please enter numbers only."
+                print("Invalid input! Please enter numbers only.")
         else:
             print("Invalid choice! Please select 1, 2, 3, 4, or 5.")
 
