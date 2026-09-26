@@ -19,7 +19,7 @@ def calculator():
     print("2. Subtract")
     print("3. Multiply")
     print("4. Divide")
-    print("5. Exit")
+    print("5. Exit"
     
     while True:
         choice = input("\nEnter choice (1/2/3/4/5): ")
