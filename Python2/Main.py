@@ -39,7 +39,7 @@ def calculator():
                     print(f"{num1} - {num2} = {subtract(num1, num2)}")
                 elif choice == '3':
                     print(f"{num1} * {num2} = {multiply(num1, num2)}")
-                elif choice == '4'
+                elif choice == '4':
                     print(f"{num1} ÷ {num2} = {divide(num1, num2)}")
             except ValueError:
                 print("Invalid input! Please enter numbers only.")
