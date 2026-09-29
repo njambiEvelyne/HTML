@@ -8,7 +8,7 @@ student7 = Student("Amret", "Medicine & surgery", 2.2 )
 student8 = Student("Romero", "Computer Science", 2.1)
 print(student1.on_honor_role(), student2.on_honor_role(), student3.on_honor_role())
 
-student9 = Student("Juliet", "AI and Machine Learning", 4.2)
+student9 = Student("Juliet", "AI and Machine Learning", 4.2
 print(student1.on_honor_role(), student2.on_honor_role(), student3.on_honor_role(), student5.on_honor_role())
 
 
