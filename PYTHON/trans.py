@@ -6,7 +6,7 @@ def translate(phrase):
         translation = translation + "G"
       else:
         translation = translation + "g"
-    else:
+    else
       translation = translation + letter
   return translation
 
