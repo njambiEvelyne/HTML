@@ -1,4 +1,5 @@
 Jim- Salesman
+Salome - Manager
 Dwight- Salesman
 Pam- Receptionist
 Michael- Manager
