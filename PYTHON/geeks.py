@@ -37,4 +37,4 @@ def myFun(*args, **kwargs):
     print("Keyword arguments: ")
     for key, value in kwargs.items():
         print(f"{key} == {value}")
-        
+myFun("Hey", "Welcome", first='Geeks', mid ='for', last ='Geeks')        
