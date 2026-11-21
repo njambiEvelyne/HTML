@@ -10,3 +10,20 @@ def evenOdd(x):
         return "Odd"
 print(evenOdd(16))
 print(evenOdd(9))
+
+#Keyword Arguments
+def student(fname, lname):
+    print(fname, lname)
+
+student(fname='Geeks', lname='Practice')
+student(lname='Practice', fname='Geeks')
+
+def nameAge(name, age):
+    print("Hi, I am", name)
+    print("My age is ", age)
+
+print("Case-1:")
+nameAge("Olivia", 27)
+
+print("Case-2:")
+nameAge(27, "Olivia")
