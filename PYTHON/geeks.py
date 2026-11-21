@@ -27,3 +27,14 @@ nameAge("Olivia", 27)
 
 print("Case-2:")
 nameAge(27, "Olivia")
+
+#Arbitrary Arguments
+def myFun(*args, **kwargs):
+    print("Non-keyword arguments: ")
+    for arg in args:
+        print(arg)
+
+    print("Keyword arguments: ")
+    for key, value in kwargs.items():
+        print(f"{key} == {value}")
+        
