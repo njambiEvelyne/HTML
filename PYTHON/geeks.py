@@ -82,4 +82,8 @@ print()
 a = "GreeksforGeeks"
 upper = lambda x: x.upper()
 print(upper(a))
+print()
+
+factor = lambda a,c,b : a*b*c
+print(factor(1,3,6))
 
