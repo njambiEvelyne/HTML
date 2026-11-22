@@ -40,7 +40,8 @@ def myFun(*args, **kwargs):
     for key, value in kwargs.items():
         print(f"{key} == {value}")
 myFun("Hey", "Welcome", first='Geeks', mid ='for', last ='Geeks')        
-
+print()
+lk
 # Recursion
 def factorial(n):
     if n == 0:  # Base case
