@@ -77,3 +77,9 @@ def introduce(**kwargs):
     return ", ".join(details)
 
 print(introduce(Name="Alice", Age=25, City="New York"))
+print()
+
+a = "GreeksforGeeks"
+upper = lambda x: x.upper()
+print(upper(a))
+
