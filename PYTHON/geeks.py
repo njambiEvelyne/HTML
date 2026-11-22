@@ -61,3 +61,10 @@ def fun(*args):
     return sum(args)
 
 print(fun(5, 10, 1,4))
+print()
+
+# **Kwargs
+def myFun(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}. {value}")
+myFun(a= "Reading", b="Exploring", c="Coding")
