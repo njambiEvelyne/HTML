@@ -41,7 +41,7 @@ def myFun(*args, **kwargs):
         print(f"{key} == {value}")
 myFun("Hey", "Welcome", first='Geeks', mid ='for', last ='Geeks')        
 print()
-lk
+
 # Recursion
 def factorial(n):
     if n == 0:  # Base case
@@ -50,3 +50,14 @@ def factorial(n):
         return n * factorial(n - 1)
 
 print(factorial(5))
+print()
+
+def mySum(*args):
+    return sum(args)
+print(mySum(12,8,20,35))
+print()
+
+def fun(*args):
+    return sum(args)
+
+print(fun(5, 10, 1,4))
