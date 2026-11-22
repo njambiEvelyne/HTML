@@ -68,3 +68,5 @@ def myFun(**kwargs):
     for key, value in kwargs.items():
         print(f"{key}. {value}")
 myFun(a= "Reading", b="Exploring", c="Coding")
+print()
+
