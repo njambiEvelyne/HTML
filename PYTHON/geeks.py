@@ -70,3 +70,10 @@ def myFun(**kwargs):
 myFun(a= "Reading", b="Exploring", c="Coding")
 print()
 
+def introduce(**kwargs):
+    details = []
+    for k, v in kwargs.items():
+        details.append(k + ": " + str(v))
+    return ", ".join(details)
+
+print(introduce(Name="Alice", Age=25, City="New York"))
