@@ -87,3 +87,15 @@ print()
 factor = lambda a,c,b : a*b*c
 print(factor(1,3,6))
 
+# Decorators
+def decorator(func):
+    def wrapper():
+        print("Before calling the function.")
+        func()
+        print("After calling the function.")
+    return wrapper
+
+@decorator
+def greet():
+    print("Hello, World!")
+greet()
