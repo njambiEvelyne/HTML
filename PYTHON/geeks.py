@@ -99,3 +99,6 @@ def decorator(func):
 def greet():
     print("Hello, World!")
 greet()
+
+def welcome(name):
+    print(f"Hello {name}")
