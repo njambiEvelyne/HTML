@@ -102,3 +102,7 @@ greet()
 
 def welcome(name):
     print(f"Hello {name}")
+
+    # Add a desorator to the welcome function
+def decorator(func):
+    def wrapper()
