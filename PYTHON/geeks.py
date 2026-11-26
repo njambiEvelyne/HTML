@@ -165,4 +165,8 @@ print(Person.class_name)
 # Built-in decorators
 # 1. @static
 class MathOperations:
-    
+    @staticmethod
+    def add(x,y):
+        return x + y
+res = MathOperations.add(5,3)
+print(res)
