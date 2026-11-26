@@ -161,3 +161,5 @@ def fun(cls):
 class Person:
     pass
 print(Person.class_name)
+
+# Built-in decorators
