@@ -183,3 +183,5 @@ class Employee:
         cls.raise_amount = amount
 Employee.set_raise_amount(1.10)
 print(Employee.raise_amount)
+
+# @property
