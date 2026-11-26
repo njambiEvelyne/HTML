@@ -181,3 +181,5 @@ class Employee:
     @classmethod
     def set_raise_amount(cls, amount):
         cls.raise_amount = amount
+Employee.set_raise_amount(1.10)
+print(Employee.raise_amount)
