@@ -184,7 +184,7 @@ class Employee:
 Employee.set_raise_amount(1.10)
 print(Employee.raise_amount)
 
-# @property- used to define a method as a property, which allows to access it like an attribute. 
+    # 3. @property- used to define a method as a property, which allows to access it like an attribute. 
 class Circle:
     def __init__(self, radius):
         self._radius = radius
