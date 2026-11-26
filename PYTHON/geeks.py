@@ -170,3 +170,14 @@ class MathOperations:
         return x + y
 res = MathOperations.add(5,3)
 print(res)
+
+    # 2. @classmethod- Defines the method  that operates on the class itself
+class Employee:
+    raise_amount = 1.05
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+    
+    @classmethod
+    def set_raise_amount(cls, amount):
+        cls.raise_amount = amount
