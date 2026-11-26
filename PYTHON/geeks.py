@@ -104,17 +104,17 @@ greet()
 #     print(f"Hello {name}")
 
 # Add a desorator to the welcome function
-def decorator(func):
-    def wrapper():
-        print("This is an upgraded version for the site")
-        func()
-        print("You can now interact with the premium content in the freemium version for this month!")
-    return wrapper
-@decorator 
-def welcome(name):
-    print(f"Hello {name}")
+# def decorator(func):
+#     def wrapper():
+#         print("This is an upgraded version for the site")
+#         func()
+#         print("You can now interact with the premium content in the freemium version for this month!")
+#     return wrapper
+# @decorator 
+# def welcome(name):
+#     print(f"Hello {name}")
     
-welcome("Njambi")
+# welcome("Njambi")
 
 # Assigning a function to a variable
 def greet(n):
