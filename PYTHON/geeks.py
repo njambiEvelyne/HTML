@@ -163,3 +163,6 @@ class Person:
 print(Person.class_name)
 
 # Built-in decorators
+# 1. @static
+class MathOperations:
+    
